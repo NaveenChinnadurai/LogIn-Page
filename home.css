@@ -1,0 +1,134 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(130deg,rgb(133, 32, 248),rgb(7, 171, 236),rgb(196, 70, 196))fixed;
+    padding: 37px;
+}
+.main-div,.signup-main-div{
+    height: 550px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+.sub-div-1,.signup-div-1{
+    background: linear-gradient(130deg,rgb(216, 57, 216),rgb(81, 171, 206),rgb(112, 7, 231));
+    height:100%;
+    width:65%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.sub-div-2,.signup-div-2{
+    background-color: rgb(73, 67, 80);
+    height:100%;
+    width: 35%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}
+.login-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto 0px;
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+.login-title{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px;
+}
+.userProfile{
+    height:70px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form input{
+    margin: 10px;
+    height: 30px;
+    width: 90%;
+    font-size: 18px;
+}
+.login-btn{
+    background-color: skyblue;
+    width: 80px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.logIn-btn{
+    text-decoration: none;
+    color: black;
+}
+.sidepanel-title{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 5px auto;
+}
+.sidepanel-text-1{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px ;
+    text-align: center;
+}
+.sidepanel-text-2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.sidepanel-btn{
+    background-color: aquamarine;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius:50px;
+    margin: 10px auto;
+}
+.signup-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*For second Page*/
+.signup-main-div{
+    flex-direction: row-reverse;
+}
+.signup-div-1{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.signup-div-2{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.sign-up-title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 30px;
+}
